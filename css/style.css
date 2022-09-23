@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Merriweather:wght@400;700;900&display=swap");
+
+.body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.header {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.nav {
+    margin: 0 auto;
+    display: flex;
+    max-width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 90%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkblue;
+}
+
+.nav_links_item {
+    margin-right: 100px;
+}
+
+.nav_link {
+    color:darkblue;
+    font-weight: bolder;
+    text-decoration: double;
+}
+
+.nav_link:hover {
+    color:green;
+}
+
+.plan_txt {
+    font-family: 'Manrope', sans-serif;
+    background-color:rgba(255, 255, 255, 0.5);
+    border:2px double rgb(206, 191, 191);
+}
+
+.photo {
+    padding: 20px;
+    /* margin: auto; */
+    display: block;
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 2%;
+}
+.name {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    max-width: 55%;
+}
+
+.prof {
+    display: block;
+    color: darkslategrey;
+    font-size: 34px;
+}
+
+.chapter-title {
+    font-family: 'Merriweather', serif;
+}
+
+.transit {
+    transition:1s;
+}
+
+.text {
+    /* text-align: justify; */
+    font-family: 'Manrope', sans-serif;
+}
+
+.text:hover {
+    background-color:rgba(255, 255, 255, 0.5);
+    border:2px dashed rgb(206, 191, 191);
+
+}
+
+.photo:hover {
+    background-color: rgba(150, 150, 150, 0.5);
+}
+
+
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.about_details {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.about_details_text {
+    max-width: 90%;
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+footer {
+    background-color:rgba(204, 226, 212, 0.729);
+}
