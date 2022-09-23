@@ -30,10 +30,16 @@
     max-width: 90%;
     padding-bottom: 10px;
     border-bottom: 1px solid darkblue;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
-.nav_links_item {
+.nav_links_item:not(:last-child) {
     margin-right: 100px;
+}
+
+.nav_links_item:last-child {
+    margin-right: 40px;
 }
 
 .nav_link {
@@ -54,33 +60,40 @@
 
 .photo {
     padding: 20px;
-    /* margin: auto; */
     display: block;
     background-color: rgba(200, 200, 200, 0.5);
     border-radius: 2%;
 }
+
 .name {
     font-family: 'Merriweather', serif;
     font-weight: 900;
-    max-width: 55%;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .prof {
     display: block;
     color: darkslategrey;
-    font-size: 34px;
+    font-size: 33px;
+    /* text-align: center; */
 }
 
 .chapter-title {
     font-family: 'Merriweather', serif;
 }
 
+.about-title {
+    margin: auto;
+}
+
+
 .transit {
     transition:1s;
 }
 
 .text {
-    /* text-align: justify; */
     font-family: 'Manrope', sans-serif;
 }
 
@@ -107,16 +120,16 @@
     display: flex;
     flex-direction: column;
     max-width: 60%;
+    margin: auto;
 }
 
 .about_details_text {
-    max-width: 90%;
     text-align: center;
 }
 
 .content {
     margin: 0 auto;
-    max-width: 1220px;
+    max-width: 95%;
 }
 
 footer {
