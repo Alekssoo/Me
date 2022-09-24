@@ -45,7 +45,8 @@
 .nav_link {
     color:darkblue;
     font-weight: bolder;
-    text-decoration: double;
+    -webkit-text-decoration: double;
+            text-decoration: double;
 }
 
 .nav_link:hover {
